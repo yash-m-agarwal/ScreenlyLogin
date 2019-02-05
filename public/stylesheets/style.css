@@ -2,7 +2,7 @@
 
 html
 {
-    background-color: #f2f2f2;
+    background-color: #ffffff;/*Background color changed*/
     height: 100%;
     /*background: linear-gradient(to bottom, #f2f2f2, #aad4e5);*/
     background-size: cover;
@@ -29,42 +29,187 @@ html
     align-items: center;
 }
 
-.special
+/*.special
 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+Image shadows removed
+*/
 
-.people
+/*Faculty and student Members*/
+
+/*.member
 {
-    display: inline-flex;
-    justify-content: space-around;
-    font-family: Helvetica;
+    position: absolute;
+    top: 40%;
+    left:7%;
+    background: #B0BEC5;
+    height: 328px;
+    width: 344px;
+    border: 1px solid #000;
 }
 
-.people h1
+.member .chip
 {
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: 3px solid #aad4e5;
-}
-
-.student
-{
+    background: #f2f2f2;
+    height: 88px;
+    width: 300px;
+    line-height: 32px;
+    border-radius: 60px;
     display: inline-block;
-    margin: 170px 0 0 200px;
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-left: 20px;
 }
 
-ol
-{
-    font-size: 25px;
+.member .chip img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #90A4AE;
+    border-radius: 60px;
+    float: left;
+    margin-right: 28px;
+    padding: 2px;
+}*/
+
+.detail {
+    display: inline;
+    margin-top: 12px;
 }
 
-.faculty
-{
-    display: inline-block;
-    margin-top: 170px;
-    margin-left: 850px;
+.name {
+    font-family: serif;
+    font-size: 24px;
+    color: #37474F;
+    margin-top: 12px;
 }
+
+.description {
+    font-style: italic;
+    font-size: 15px;
+    background: #90A4AE;
+}
+
+.member1
+{
+    position: absolute;
+    top: 40%;
+    left:7%;
+    background: #F2F2F2;
+    height: 108px;
+    width: 344px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.member1 img {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #90A4AE;
+    border-radius: 90px;
+    float: left;
+    margin-right: 28px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.member2
+{
+    position: absolute;
+    top: 53%;
+    left: 7%;
+    background: #F2F2F2;
+    height: 108px;
+    width: 344px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.member2 img {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #90A4AE;
+    border-radius: 90px;
+    float: left;
+    margin-right: 28px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.member3
+{
+    position: absolute;
+    top: 66%;
+    left: 7%;
+    background: #F2F2F2;
+    height: 108px;
+    width: 344px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.member3 img {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #90A4AE;
+    border-radius: 90px;
+    float: left;
+    margin-right: 28px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.faculty1
+{
+    position: absolute;
+    top: 40%;
+    right:9%;
+    background: #F2F2F2;
+    height: 108px;
+    width: 344px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.faculty1 img {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #90A4AE;
+    border-radius: 90px;
+    float: left;
+    margin-right: 28px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.faculty2
+{
+    position: absolute;
+    top: 53%;
+    right:9%;
+    background: #F2F2F2;
+    height: 108px;
+    width: 344px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.faculty2 img {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #90A4AE;
+    border-radius: 90px;
+    float: left;
+    margin-right: 28px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
 
 /* login.css styles */
 .box
@@ -74,11 +219,11 @@ ol
     left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
-    height: 400px;
+    height: 420px;
     padding: 40px;
-    background: rgba(0, 0, 0,.8);
+    background: #B0BEC5;/*Login page transparency removed*/
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); login page border removed*/
 }
 
 .box h1
@@ -86,7 +231,7 @@ ol
     margin: 0 0 30px;
     font-size: 36px;
     padding: 10px;
-    color: #fff;
+    color: #37474F;
     text-align: center;
 }
 .box .inputBox
@@ -98,11 +243,11 @@ ol
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: #fff;
+    color: #37474F;
     letter-spacing: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #37474F;
     outline: none;
     background: transparent;
 }
@@ -113,7 +258,7 @@ ol
     left: 0;
     padding: 10px 0;
     font-size: 16px;
-    color: #fff;
+    color: #37474F;
     pointer-events: none;
     transition: 0.5s;
 }
@@ -122,17 +267,15 @@ ol
 {
     top: -18px;
     left: 0;
-    color: #2196F3;
+    color: #37474F;
     font-size: 12px;
 }
 .box input[type="submit"]
 {
-    background: transparent;
     border: none;
     outline: none;
-    background: #2196F3;
+    background: #607D8B;
     margin-top: 20px;
     padding: 15px 35px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.5);
     cursor: pointer;
 }
