@@ -1,5 +1,9 @@
 /* styles.css styles */
 
+
+*{
+    font-family: 'Lato', sans-serif;
+}
 html
 {
     background-color: #ffffff;/*Background color changed*/
@@ -27,6 +31,26 @@ html
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.team_member
+{
+    position: absolute;
+    color: #37474F;
+    font-size: 35px;
+    font-weight: bold;
+    top: 30%;
+    left: 10%;
+}
+
+.faculty
+{
+    position: absolute;
+    color: #37474F;
+    font-size: 36px;
+    font-weight: bold;
+    top: 30%;
+    right: 15%;
 }
 
 /*.special
@@ -82,33 +106,36 @@ Image shadows removed
     font-size: 24px;
     color: #37474F;
     margin-top: 12px;
+    margin-bottom: 10px;
 }
 
 .description {
     font-style: italic;
     font-size: 15px;
-    background: #90A4AE;
+    /* background: #90A4AE; */
+    margin: unset;
+    text-align: justify;
 }
 
 .member1
 {
     position: absolute;
     top: 40%;
-    left:7%;
-    background: #F2F2F2;
+    left: 6%;
+    /* background: #F2F2F2; */
     height: 108px;
-    width: 344px;
-    border: 1px solid #ccc;
+    width: 378px;
+    /*border: 1px solid #ccc;*/
     border-radius: 8px;
 }
 
 .member1 img {
-    width: 90px;
-    height: 90px;
-    border: 2px solid #90A4AE;
+    width: 96px;
+    height: 96px;
+    /* border: 2px solid #90A4AE; */
     border-radius: 90px;
     float: left;
-    margin-right: 28px;
+    margin-right: 18px;
     padding: 2px;
     margin-left: 5px;
     margin-top: 5px;
@@ -118,21 +145,21 @@ Image shadows removed
 {
     position: absolute;
     top: 53%;
-    left: 7%;
-    background: #F2F2F2;
+    left: 6%;
+    /* background: #F2F2F2; */
     height: 108px;
-    width: 344px;
-    border: 1px solid #ccc;
+    width: 378px;
+    /*border: 1px solid #ccc;*/
     border-radius: 8px;
 }
 
 .member2 img {
-    width: 90px;
-    height: 90px;
-    border: 2px solid #90A4AE;
+    width: 96px;
+    height: 96px;
+    /* border: 2px solid #90A4AE; */
     border-radius: 90px;
     float: left;
-    margin-right: 28px;
+    margin-right: 18px;
     padding: 2px;
     margin-left: 5px;
     margin-top: 5px;
@@ -142,21 +169,21 @@ Image shadows removed
 {
     position: absolute;
     top: 66%;
-    left: 7%;
-    background: #F2F2F2;
+    left: 6%;
+    /* background: #F2F2F2; */
     height: 108px;
-    width: 344px;
-    border: 1px solid #ccc;
+    width: 378px;
+    /*border: 1px solid #ccc;*/
     border-radius: 8px;
 }
 
 .member3 img {
-    width: 90px;
-    height: 90px;
-    border: 2px solid #90A4AE;
+    width: 96px;
+    height: 96px;
+    /* border: 2px solid #90A4AE; */
     border-radius: 90px;
     float: left;
-    margin-right: 28px;
+    margin-right: 18px;
     padding: 2px;
     margin-left: 5px;
     margin-top: 5px;
@@ -166,21 +193,21 @@ Image shadows removed
 {
     position: absolute;
     top: 40%;
-    right:9%;
-    background: #F2F2F2;
+    right: 9%;
+    /* background: #F2F2F2; */
     height: 108px;
-    width: 344px;
-    border: 1px solid #ccc;
+    width: 378px;
+    /*border: 1px solid #ccc;*/
     border-radius: 8px;
 }
 
 .faculty1 img {
-    width: 90px;
-    height: 90px;
-    border: 2px solid #90A4AE;
+    width: 96px;
+    height: 96px;
+    /* border: 2px solid #90A4AE; */
     border-radius: 90px;
     float: left;
-    margin-right: 28px;
+    margin-right: 18px;
     padding: 2px;
     margin-left: 5px;
     margin-top: 5px;
@@ -190,21 +217,21 @@ Image shadows removed
 {
     position: absolute;
     top: 53%;
-    right:9%;
-    background: #F2F2F2;
+    right: 9%;
+    /* background: #F2F2F2; */
     height: 108px;
-    width: 344px;
-    border: 1px solid #ccc;
+    width: 378px;
+    /*border: 1px solid #ccc;*/
     border-radius: 8px;
 }
 
 .faculty2 img {
-    width: 90px;
-    height: 90px;
-    border: 2px solid #90A4AE;
+    width: 96px;
+    height: 96px;
+    /* border: 2px solid #90A4AE; */
     border-radius: 90px;
     float: left;
-    margin-right: 28px;
+    margin-right: 18px;
     padding: 2px;
     margin-left: 5px;
     margin-top: 5px;
@@ -218,10 +245,10 @@ Image shadows removed
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 400px;
+    width: 420px;
     height: 420px;
     padding: 40px;
-    background: #B0BEC5;/*Login page transparency removed*/
+    /*background: #B0BEC5;*//*Login page transparency removed*/
     box-sizing: border-box;
     /*box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); login page border removed*/
 }
@@ -229,7 +256,7 @@ Image shadows removed
 .box h1
 {
     margin: 0 0 30px;
-    font-size: 36px;
+    font-size: 40px;
     padding: 10px;
     color: #37474F;
     text-align: center;
@@ -242,12 +269,12 @@ Image shadows removed
 {
     width: 100%;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #37474F;
     letter-spacing: 1px;
     margin-bottom: 36px;
     border: none;
-    border-bottom: 1px solid #37474F;
+    border-bottom: 2px solid #37474F;
     outline: none;
     background: transparent;
 }
@@ -257,7 +284,7 @@ Image shadows removed
     top: 0;
     left: 0;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #37474F;
     pointer-events: none;
     transition: 0.5s;
@@ -268,7 +295,7 @@ Image shadows removed
     top: -18px;
     left: 0;
     color: #37474F;
-    font-size: 12px;
+    font-size: 14px;
 }
 .box input[type="submit"]
 {
@@ -278,4 +305,13 @@ Image shadows removed
     margin-top: 20px;
     padding: 15px 35px;
     cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 94%;
+    left: 2%;
+    color: #37474F;
+    font-weight: bold;
+    font-size: 18px;
 }
