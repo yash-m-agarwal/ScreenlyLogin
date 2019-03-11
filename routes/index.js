@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/login', function(req,res,next) {
     if(req.body.username==='professor' && req.body.password==='profpruthviraj'){
-        res.redirect("http://www.google.com");
+        res.redirect("10.100.82.195");
     }
     else
     {
